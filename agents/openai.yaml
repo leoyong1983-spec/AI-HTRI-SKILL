@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI HTRI"
+  short_description: "通过Automation Server控制HTRI建模、Rating复核与结果审计"
+  default_prompt: "Use $ai-htri-skill to take over an existing HTRI case, validate it, run Rating, and export an auditable result package."
