@@ -1,0 +1,24 @@
+# HTRI licensed/proprietary case and binary assets
+*.htri
+*.dll
+*.exe
+*.tlb
+*.olb
+*.zip
+*.7z
+
+# Generated and local-only artifacts
+AGENTCODING/
+artifacts/
+downloads/
+output/
+outputs/
+qa/
+work/
+*.log
+*.tmp
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
